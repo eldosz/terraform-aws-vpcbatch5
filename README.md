@@ -1,4 +1,5 @@
 # terraform-aws-vpcbatch5
+Create main.tf file and input following
 
 ```hcl
 module "vpc"{
@@ -13,3 +14,13 @@ module "vpc"{
 
 }
 ```  
+
+Create appache.sh file and input a script. Eg. 
+``` hcl
+
+#!/bin/bash
+sudo apt update
+sudo apt install apache2 -y
+sudo systemctl start apache2
+sudo systemctl enable apache2
+```
