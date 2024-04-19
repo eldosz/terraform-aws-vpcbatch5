@@ -45,3 +45,9 @@ variable subnet3_name {
   description = "Provide subnet3 name"
 }
 
+variable ports {
+  type        = string
+  description = "Provide  ports"
+}
+
+var
