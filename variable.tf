@@ -27,8 +27,9 @@ variable ip_on_lunch {
  description = "true or false"
 }
 variable instance_type {
-  type        = string
+  type        = list
   description = "provide instance type"
+  
 }
 
 variable subnet1_name {
