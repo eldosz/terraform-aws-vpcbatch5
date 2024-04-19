@@ -47,7 +47,12 @@ variable subnet3_name {
 }
 
 variable ports {
-  type        = list
-  description = "Provide  ports"
+  type        = list(object({
+
+    from_port = number
+    to_port = number
+    
+  }))
+  description = "Provide list of ports"
 }
 
