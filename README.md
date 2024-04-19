@@ -4,7 +4,7 @@
 ```hcl
 module "vpc"{
     source = "eldosz/vpcbatch5/aws"
-    version = "v0.0.2"
+    version = "v0.0.3"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
     subnet1_cidr = "10.0.1.0/24"
