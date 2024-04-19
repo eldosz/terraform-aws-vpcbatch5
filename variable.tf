@@ -47,7 +47,7 @@ variable subnet3_name {
 }
 
 variable ports {
-  type        = string
+  type        = list
   description = "Provide  ports"
 }
 
