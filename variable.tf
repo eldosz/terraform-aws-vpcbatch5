@@ -27,7 +27,7 @@ variable ip_on_lunch {
  description = "true or false"
 }
 variable instance_type {
-  type        = list
+  type        = string
   description = "provide instance type"
   
 }
