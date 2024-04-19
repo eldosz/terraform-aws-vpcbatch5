@@ -18,7 +18,7 @@ module "vpc"{
     ports=[
         {from_port = 22, to_port = 22},
         {from_port = 80, to_port = 80}     #provide list of ports
- 
+ ]
 
 }
 ```  
